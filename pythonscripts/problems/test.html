@@ -1,0 +1,232 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    <title><module 'stoichiometry' from 'stoichiometry.py'></title>
+
+    <style>
+    #question {font-size: 20px; font-weight: bold;}
+    #answer {padding-left:20px;}
+    </style>
+      
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    jax: ["input/TeX","output/HTML-CSS"],
+    displayAlign: "left"
+    });
+    </script>
+
+    <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+
+    </head>
+    <body><div>Given an average weight, find the weight of n coins in kg.</div><div>Area: ['stoichiometry']</div><div>Skill: ['number to mass conversion', 'metric conversion']</div>
+            <div id="question"> 
+            The average weight of a coin is 4.11 g. 
+            Find the total weight of 137632 coins in kg.
+            </div><div></div>
+            <div id="answer">
+            $$
+            \require{cancel}
+            wt_{tot} =
+            wt_{avg} \cdot n  = 
+            \frac{ 4.11 \: g }{ 1 \: \cancel{coin} } \cdot 137632 \: \cancel{coin} = 
+            565667.5 \: g =
+            566000 \: \cancel{g} \cdot \frac{1 \: kg}{1000 \: \cancel{g}} = 566 \: kg
+            $$
+            </div><div></div>
+        <div>Given an average weight in g and a total weight in kg, find the number of coins.</div><div>Area: ['stoichiometry']</div><div>Skill: ['mass to number conversion', 'metric conversion']</div><div id="question"> 
+        The average weight of a coin is 3.88 grams. 
+        Find the number of coins in 952 kilograms.
+       </div><div></div><div id="answer">
+        $$\require{cancel}
+        n =
+        wt_{tot} \cdot \frac{1}{wt_{avg}}  = 
+        952 \: \cancel{kg} \cdot \frac{1000 \: \cancel{g}}{1 \: \cancel{kg}}\cdot \frac{ 1 \: {coin} }  {3.88 \cancel{g}} = 
+        245446.9 \: coins =
+        245000 \: coins
+        $$</div><div></div><div>Convert grams of an element to moles and number of atoms.</div><div>Area: ['stoichiometry']</div><div>Skill: ['mass to moles conversion', 'mass to atoms conversion']</div><div id="question"> 
+        Convert 4.91 grams of Boron to moles of Boron and atoms of Boron.
+        Use the unit conversion method and show cancellation of units.
+        </div><div></div><div id="answer">
+        $$
+        \require{cancel}
+        4.91 \cancel{g \: B} \cdot \frac{ 1 \: mol \: B }{ 10.81 \cancel{g \: B} } = 4.54e-01 \: mol \: B
+        $$
+        $$
+        \require{cancel}
+        4.91 \cancel{g \: B} \cdot \frac{ 6.02e23 \: atoms \: B }{ 10.81 \cancel{g \: B} } = 2.73e+23 \: atoms \: B 
+        $$
+        </div><div></div><div>Convert combination of coins to percent coins by weight.</div><div>Area: ['stoichiometry']</div><div>Skill: ['number to gram conversion', 'fraction to percent']</div><div id="question"> 
+        Find the percent composition of Pe<sub>2</sub>Ni<sub>3</sub>Di<sub>5</sub>Qu<sub>2</sub><br>
+        Explain your solution completely.
+        </div><div></div><div id="answer">
+    $$
+    wt_{Pe} = 2 Pe \cdot \frac{2.50 \: g} {1 \: Pe} = 5.00 \: g
+    $$
+    $$
+    wt_{Ni} = 3 Ni \cdot \frac{5.00 \: g} {1 \: Ni} = 15.00 \: g
+    $$
+    $$
+    wt_{Di} = 5 Di \cdot \frac{2.27 \: g} {1 \: Di} = 11.35 \: g
+    $$
+    $$
+    wt_{Qu} = 2 Qu \cdot \frac{5.67 \: g} {1 \: Qu} = 11.34 \: g
+    $$
+    $$
+    wt_{tot} = 42.69 \: g 
+    $$
+    $$
+    \% \: Pe = \frac{wt_{Pe}} {wt_{tot}} \cdot 100 = \frac{5.00 \: g} {42.69 \: g} \cdot 100 = 11.7 \: \% \: Pe
+    $$
+    $$
+    \% \: Ni = \frac{wt_{Ni}} {wt_{tot}} \cdot 100 = \frac{15.00 \: g} {42.69 \: g} \cdot 100 = 35.1 \: \% \: Ni
+    $$
+    $$
+    \% \:Di = \frac{wt_{Di}} {wt_{tot}} \cdot 100 = \frac{11.35 \: g} {42.69 \: g} \cdot 100 = 26.6 \: \% \: Di
+    $$
+    $$
+    \% \:Qu = \frac{wt_{Qu}} {wt_{tot}} \cdot 100 = \frac{11.34 \: g} {42.69 \: g} \cdot 100 = 26.6 \: \% \: Qu
+    $$
+    $$
+    \%_{tot} = 100.00 \: \% 
+    $$
+    </div><div></div><div>Convert chemical formula to a percent by weight.</div><div>Area: ['stoichiometry']</div><div>Skill: ['gram to number conversion']</div><div id="question"> 
+        Find the percent composition of CaCl<sub>2</sub><br>Explain your solution completely.
+        </div><div></div><div id="answer">
+    $$
+    wt_{Ca} = 1 \:atom\: Ca \cdot \frac{40.078 \: amu} {1 \:atom\: Ca} = 40.078 \: amu \: Ca
+    $$
+    $$
+    wt_{Cl} = 2 \:atom\: Cl \cdot \frac{35.453 \: amu} {1 \:atom\: Cl} = 70.906 \: amu \: Cl
+    $$
+    $$
+    wt_{tot} = 110.984 \: amu 
+    $$
+    $$
+    \% \: Ca = \frac{wt_{Ca}} {wt_{tot}} \cdot 100 = \frac{40.078 \: amu} {110.984 \: amu} \cdot 100 = 36.11 \: \% \: Ca
+    $$
+    $$
+    \% \: Cl = \frac{wt_{Cl}} {wt_{tot}} \cdot 100 = \frac{70.906 \: amu} {110.984 \: amu} \cdot 100 = 63.89 \: \% \: Cl
+    $$
+    $$
+    \%_{tot} = 100.00 \: \% 
+    $$
+    </div><div></div><div>Convert grams of an element to moles and number of atoms.</div><div>Area: ['stoichiometry']</div><div>Skill: ['mass to moles conversion', 'mass to atoms conversion']</div><div id="question"> 
+        Convert 1.02e-02 moles of Mendelevium to grams of Mendelevium and atoms of Mendelevium.
+        Use the unit conversion method and show cancellation of units.
+        </div><div></div><div id="answer">
+        $$
+        \require{cancel}
+        1.02e-02 \cancel{mol \: Md} \cdot \frac{ 258.00 {g \: Md} }{ 1 \: \cancel{mol \: Md} } = 2.63 \: g \: Md
+        $$
+        $$
+        \require{cancel}
+        1.02e-02 \cancel{mol \: Md} \cdot \frac{ 6.02e23 \: atoms \: Md }{ 1\cancel{mol \: Md} } = 6.14e+21 \: atoms \: Md 
+        $$
+        </div><div></div><div>Given an average weight and a total weight, find the number of coins.</div><div>Area: ['stoichiometry']</div><div>Skill: ['mass to number conversion']</div><div id="question"> 
+        The average weight of a coin is 3.60 grams. 
+        Find the number of coins in 1166 grams.
+       </div><div></div><div id="answer">
+        $$\require{cancel}
+        n =
+        wt_{tot} \cdot \frac{1}{wt_{avg}}  = 
+        1166 \: \cancel{g} \cdot \frac{ 1 \: {coin} }  {3.60 \cancel{g}} = 
+        323.9 \: coins =
+        324 \: coins
+        $$</div><div></div><div>Convert percent by weight to a chemical formula.</div><div>Area: ['stoichiometry']</div><div>Skill: ['gnumber to gram conversion']</div><div id="question"> 
+        Given the percent composition of <br>
+        95.80 % Na <br>
+        4.20 % H <br>
+        and a total weight of 23.998 amu, <br>
+        find the molecular formula.
+        Explain your solution completely.
+        </div><div></div><div id="answer">
+    $$
+    atoms \: Na = 95.80 \:amu\: Na \cdot \frac{1 \:atom\: Na} {22.990 \: amu} = 4.167 \: atoms \: Na
+    $$
+    $$
+    atoms \: H = 4.20 \:amu\: H \cdot \frac{1 \:atom\: H} {1.008 \: amu} = 4.167 \: atoms \: H
+    $$
+    $$
+    smallest = 4.167 
+    $$
+    $$
+    factor = 1
+    $$
+    $$
+    formula = Na_{1}H_{1}
+    $$
+    $$
+    formula \: weight = 23.998 \: amu 
+    $$
+    </div><div></div><div>Given an average weight, find the weight of n coins.</div><div>Area: ['stoichiometry']</div><div>Skill: ['number to mass conversion']</div>
+            <div id="question"> 
+            The average weight of a coin is 5.59 g. 
+            Find the total weight of 154 coins.
+            </div><div></div>
+            <div id="answer">
+            $$
+            \require{cancel}
+            wt_{tot} =
+            wt_{avg} \cdot n  = 
+            \frac{ 5.59 \: g }{ 1 \: \cancel{coin} } \cdot 154 \: \cancel{coin} = 
+            860.9 \: g =
+            861 \: g
+            $$
+            </div><div></div>
+        <div>Convert atoms of an element to moles and grams.</div><div>Area: ['stoichiometry']</div><div>Skill: ['atoms to moles conversion', 'atoms to mass conversion']</div><div id="question"> 
+        Convert 6.65e+22 atoms of Vanadium to grams of Vanadium and moles of Vanadium.
+        Use the unit conversion method and show cancellation of units.
+        </div><div></div><div id="answer">
+        $$
+        \require{cancel}
+        6.65e+22 \cancel{atoms \: V} \cdot \frac{ 50.94 {g \: V} }{ 6.02e23 \: \cancel{atoms \: V} } = 5.63 \: g \: V
+        $$
+        $$
+        \require{cancel}
+        6.65e+22 \cancel{atoms \: V} \cdot \frac{ 1 \: mol \: V }{ 6.02e23 \cancel{atoms \: V} } = 1.11e-01 \: mol \: V 
+        $$
+        </div><div></div><div>Convert percent coins by weight to a combination of coins.</div><div>Area: ['stoichiometry']</div><div>Skill: ['gram to number conversion']</div><div id="question"> 
+        Find the formula for 16.7% Pe, 41.7% Ni, and 3.8% Di.<br> 
+        The total weight is 59.95 g.<br>
+        Explain your solution completely.
+        </div><div></div><div id="answer">
+    $$
+    wt_{Pe} = 0.167 \cdot 59.95 = 10.00 \: g
+    $$
+    $$
+    wt_{Ni} = 0.417 \cdot 59.95 = 25.00 \: g
+    $$
+    $$
+    wt_{Di} = 0.038 \cdot 59.95 = 2.27 \: g
+    $$
+    $$
+    wt_{Qu} = 0.378 \cdot 59.95 = 22.68 \: g
+    $$
+    $$
+    \%_{tot} = 100.0 \: \% 
+    $$
+    $$
+    n_{Pe} = wt_{Pe} \cdot \frac{1 \: Pe}{2.50 \: g} = 10.00 \: g \cdot \frac{1 \: Pe}{2.50 \: g}  = 4  \: Pe
+    $$
+    $$
+    n_{Ni} = wt_{Ni} \cdot \frac{1 \: Ni}{2.50 \: g} = 25.00 \: g \cdot \frac{1 \: Ni}{2.50 \: g}  = 5  \: Ni
+    $$
+    $$
+    n_{Di} = wt_{Di} \cdot \frac{1 \: Di}{2.50 \: g} = 2.27 \: g \cdot \frac{1 \: Di}{2.50 \: g}  = 1  \: Di
+    $$
+    $$
+    n_{Qu} = wt_{Qu} \cdot \frac{1 \: Qu}{2.50 \: g} = 22.68 \: g \cdot \frac{1 \: Qu}{2.50 \: g}  = 4  \: Qu
+    $$
+    $$
+    wt_{tot} = 59.95 \: g
+    $$
+    $$
+    Formula = Pe_{4}Ni_{5}Di_{1}
+    Qu_{4}
+    $$
+    </div><div></div></body>
+    </html>
